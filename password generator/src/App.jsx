@@ -1,9 +1,9 @@
 import { useCallback, useState } from "react";
 
 function App() {
-  const [length, setLength] = useState(12);
-  const [numAllowed, setNumAllowed] = useState(true);
-  const [charAllowed, setCharAllowed] = useState(true);
+  const [length, setLength] = useState(8);
+  const [numAllowed, setNumAllowed] = useState(false);
+  const [charAllowed, setCharAllowed] = useState(false);
   const [password, setPassword] = useState("");
   const [copied, setCopied] = useState(false);
 
